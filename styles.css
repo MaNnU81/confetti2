@@ -1,0 +1,24 @@
+body {
+    background: #11718e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+} 
+
+button {
+    margin-bottom: 10px;
+    display: block;
+}
+
+#myCanvas {
+    display: block;
+    background-color: rgb(218, 14, 14); 
+    /* margin: auto;
+    border: 2px solid black; */
+    height: 600px;
+    width: 600px;
+
+}
