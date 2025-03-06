@@ -19,13 +19,13 @@ const button = document.getElementById("button")
 /////emonji
 jsConfetti.addConfetti({
     emojis: ['🌈', '⚡️', '💥', '✨', '💫', '🌸'],
-    emojiSize: 32,
+    emojiSize: 50,
         confettiNumber: 100, // Numero di confetti
  })
 setTimeout(() => {
     jsConfetti.addConfetti({
         emojis: ['🌈', '⚡️', '💥', '✨', '💫', '🌸'],
-        emojiSize: 32,
+        emojiSize: 50,
         confettiNumber: 100,
      })
      
@@ -33,7 +33,7 @@ setTimeout(() => {
 button.addEventListener('click', () => {
     jsConfetti.addConfetti({
         emojis: ['🌈', '⚡️', '💥', '✨', '💫', '🌸'],
-        emojiSize: 32,
+        emojiSize: 50,
         confettiNumber: 100,
      })
 }) 
