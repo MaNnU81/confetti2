@@ -13,30 +13,29 @@ const jsConfetti = new JSConfetti({ canvas })
 
 
 const button = document.getElementById("button")
-// jsConfetti.addConfetti()
+// jsConfetti.addConfetti()   //normale
+
+
+/////emonji
 jsConfetti.addConfetti({
     emojis: ['🌈', '⚡️', '💥', '✨', '💫', '🌸'],
-    confettiRadius: 1, // Imposta la dimensione dei confetti più piccola
-        confettiNumber: 10, // Numero di confetti
+    emojiSize: 32,
+        confettiNumber: 100, // Numero di confetti
  })
-
-
-
-
-
 setTimeout(() => {
     jsConfetti.addConfetti({
         emojis: ['🌈', '⚡️', '💥', '✨', '💫', '🌸'],
-        confettiRadius: 1, // Imposta la dimensione dei confetti più piccola
-        confettiNumber: 10,
+        emojiSize: 32,
+        confettiNumber: 100,
      })
      
 }, 500)
-
 button.addEventListener('click', () => {
     jsConfetti.addConfetti({
         emojis: ['🌈', '⚡️', '💥', '✨', '💫', '🌸'],
-        confettiRadius: 1, // Imposta la dimensione dei confetti più piccola
-        confettiNumber: 10,
+        emojiSize: 32,
+        confettiNumber: 100,
      })
 }) 
+
+
